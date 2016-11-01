@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="SQL Server (Microsoft) - @localhost">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="2.6">
+    <database id="1" name="master">
+      <object-id>1</object-id>
+      <visible>1</visible>
+    </database>
+    <database id="2" name="tempdb">
+      <object-id>2</object-id>
+    </database>
+    <database id="3" name="model">
+      <object-id>3</object-id>
+    </database>
+    <database id="4" name="msdb">
+      <object-id>4</object-id>
+    </database>
+    <database id="5" name="ReportServer">
+      <object-id>5</object-id>
+    </database>
+    <database id="6" name="ReportServerTempDB">
+      <object-id>6</object-id>
+    </database>
+    <database id="7" name="myDatabase">
+      <object-id>7</object-id>
+      <visible>1</visible>
+    </database>
+    <database id="8" name="semestr">
+      <object-id>8</object-id>
+    </database>
+    <schema id="9" parent="1" name="dbo">
+      <object-id>1</object-id>
+      <visible>1</visible>
+      <introspection-timestamp>2016-10-28.13:55:31.353</introspection-timestamp>
+    </schema>
+    <schema id="10" parent="1" name="guest">
+      <object-id>2</object-id>
+    </schema>
+    <schema id="11" parent="1" name="INFORMATION_SCHEMA">
+      <object-id>3</object-id>
+    </schema>
+    <schema id="12" parent="1" name="sys">
+      <object-id>4</object-id>
+    </schema>
+    <schema id="13" parent="1" name="RSExecRole">
+      <object-id>7</object-id>
+    </schema>
+    <schema id="14" parent="1" name="NT SERVICE\ReportServer">
+      <object-id>8</object-id>
+    </schema>
+    <schema id="15" parent="1" name="db_owner">
+      <object-id>16384</object-id>
+    </schema>
+    <schema id="16" parent="1" name="db_accessadmin">
+      <object-id>16385</object-id>
+    </schema>
+    <schema id="17" parent="1" name="db_securityadmin">
+      <object-id>16386</object-id>
+    </schema>
+    <schema id="18" parent="1" name="db_ddladmin">
+      <object-id>16387</object-id>
+    </schema>
+    <schema id="19" parent="1" name="db_backupoperator">
+      <object-id>16389</object-id>
+    </schema>
+    <schema id="20" parent="1" name="db_datareader">
+      <object-id>16390</object-id>
+    </schema>
+    <schema id="21" parent="1" name="db_datawriter">
+      <object-id>16391</object-id>
+    </schema>
+    <schema id="22" parent="1" name="db_denydatareader">
+      <object-id>16392</object-id>
+    </schema>
+    <schema id="23" parent="1" name="db_denydatawriter">
+      <object-id>16393</object-id>
+    </schema>
+    <schema id="24" parent="7" name="dbo">
+      <object-id>1</object-id>
+      <visible>1</visible>
+      <introspection-timestamp>2016-10-28.13:55:31.560</introspection-timestamp>
+    </schema>
+    <schema id="25" parent="7" name="guest">
+      <object-id>2</object-id>
+    </schema>
+    <schema id="26" parent="7" name="INFORMATION_SCHEMA">
+      <object-id>3</object-id>
+    </schema>
+    <schema id="27" parent="7" name="sys">
+      <object-id>4</object-id>
+    </schema>
+    <schema id="28" parent="7" name="db_owner">
+      <object-id>16384</object-id>
+    </schema>
+    <schema id="29" parent="7" name="db_accessadmin">
+      <object-id>16385</object-id>
+    </schema>
+    <schema id="30" parent="7" name="db_securityadmin">
+      <object-id>16386</object-id>
+    </schema>
+    <schema id="31" parent="7" name="db_ddladmin">
+      <object-id>16387</object-id>
+    </schema>
+    <schema id="32" parent="7" name="db_backupoperator">
+      <object-id>16389</object-id>
+    </schema>
+    <schema id="33" parent="7" name="db_datareader">
+      <object-id>16390</object-id>
+    </schema>
+    <schema id="34" parent="7" name="db_datawriter">
+      <object-id>16391</object-id>
+    </schema>
+    <schema id="35" parent="7" name="db_denydatareader">
+      <object-id>16392</object-id>
+    </schema>
+    <schema id="36" parent="7" name="db_denydatawriter">
+      <object-id>16393</object-id>
+    </schema>
+    <table id="37" parent="9" name="MSreplication_options">
+      <object-id>1787153412</object-id>
+      <created-timestamp>2014-02-20.20:50:43.983</created-timestamp>
+      <modified-timestamp>2016-09-19.13:12:30.647</modified-timestamp>
+    </table>
+    <table id="38" parent="9" name="spt_fallback_db">
+      <object-id>117575457</object-id>
+      <created-timestamp>2003-04-08.09:18:01.557</created-timestamp>
+      <modified-timestamp>2014-02-20.20:51:04.127</modified-timestamp>
+    </table>
+    <table id="39" parent="9" name="spt_fallback_dev">
+      <object-id>133575514</object-id>
+      <created-timestamp>2003-04-08.09:18:02.870</created-timestamp>
+      <modified-timestamp>2014-02-20.20:51:04.137</modified-timestamp>
+    </table>
+    <table id="40" parent="9" name="spt_fallback_usg">
+      <object-id>149575571</object-id>
+      <created-timestamp>2003-04-08.09:18:04.180</created-timestamp>
+      <modified-timestamp>2014-02-20.20:51:04.143</modified-timestamp>
+    </table>
+    <table id="41" parent="9" name="spt_monitor">
+      <object-id>1483152329</object-id>
+      <created-timestamp>2014-02-20.20:49:38.300</created-timestamp>
+      <modified-timestamp>2014-02-20.20:51:04.157</modified-timestamp>
+    </table>
+    <view id="42" parent="9" name="spt_values">
+      <object-id>1467152272</object-id>
+      <created-timestamp>2014-02-20.20:49:38.257</created-timestamp>
+      <modified-timestamp>2014-02-20.20:49:38.300</modified-timestamp>
+    </view>
+    <routine id="43" parent="9" name="sp_MScleanupmergepublisher">
+      <object-id>1819153526</object-id>
+      <created-timestamp>2014-02-20.20:50:44.080</created-timestamp>
+      <modified-timestamp>2014-02-20.20:51:04.180</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <type>PROC</type>
+    </routine>
+    <routine id="44" parent="9" name="sp_MSrepl_startup">
+      <object-id>1803153469</object-id>
+      <created-timestamp>2014-02-20.20:50:44.060</created-timestamp>
+      <modified-timestamp>2014-02-20.20:51:04.173</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <type>PROC</type>
+    </routine>
+    <table id="45" parent="24" name="Customers">
+      <object-id>661577395</object-id>
+      <created-timestamp>2016-10-03.12:17:53.620</created-timestamp>
+      <modified-timestamp>2016-10-17.12:19:51.840</modified-timestamp>
+    </table>
+    <table id="46" parent="24" name="goods">
+      <object-id>357576312</object-id>
+      <created-timestamp>2016-09-26.12:57:48.833</created-timestamp>
+      <modified-timestamp>2016-10-24.08:48:32.843</modified-timestamp>
+    </table>
+    <table id="47" parent="24" name="performer_info">
+      <object-id>1525580473</object-id>
+      <created-timestamp>2016-10-14.00:48:21.010</created-timestamp>
+      <modified-timestamp>2016-10-14.03:51:52.990</modified-timestamp>
+    </table>
+    <table id="48" parent="24" name="Sales">
+      <object-id>226099846</object-id>
+      <created-timestamp>2016-10-24.08:48:32.777</created-timestamp>
+      <modified-timestamp>2016-10-24.08:48:32.843</modified-timestamp>
+    </table>
+    <table id="49" parent="24" name="sysdiagrams">
+      <object-id>789577851</object-id>
+      <created-timestamp>2016-10-03.12:45:09.703</created-timestamp>
+      <modified-timestamp>2016-10-03.12:45:09.703</modified-timestamp>
+    </table>
+    <table id="50" parent="24" name="Themes">
+      <object-id>1557580587</object-id>
+      <created-timestamp>2016-10-14.01:23:06.570</created-timestamp>
+      <modified-timestamp>2016-10-26.22:00:46.873</modified-timestamp>
+    </table>
+    <table id="51" parent="24" name="Users">
+      <object-id>66099276</object-id>
+      <created-timestamp>2016-10-23.15:01:23.867</created-timestamp>
+      <modified-timestamp>2016-10-25.02:06:50.060</modified-timestamp>
+    </table>
+    <routine id="52" parent="24" name="fn_diagramobjects">
+      <object-id>933578364</object-id>
+      <created-timestamp>2016-10-03.12:45:09.837</created-timestamp>
+      <modified-timestamp>2016-10-03.12:45:09.837</modified-timestamp>
+      <routine-kind>FUNCTION</routine-kind>
+      <type>SCALAR_FUN</type>
+    </routine>
+    <routine id="53" parent="24" name="sp_alterdiagram">
+      <object-id>901578250</object-id>
+      <created-timestamp>2016-10-03.12:45:09.813</created-timestamp>
+      <modified-timestamp>2016-10-03.12:45:09.813</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <type>PROC</type>
+    </routine>
+    <routine id="54" parent="24" name="sp_creatediagram">
+      <object-id>869578136</object-id>
+      <created-timestamp>2016-10-03.12:45:09.767</created-timestamp>
+      <modified-timestamp>2016-10-03.12:45:09.767</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <type>PROC</type>
+    </routine>
+    <routine id="55" parent="24" name="sp_dropdiagram">
+      <object-id>917578307</object-id>
+      <created-timestamp>2016-10-03.12:45:09.833</created-timestamp>
+      <modified-timestamp>2016-10-03.12:45:09.833</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <type>PROC</type>
+    </routine>
+    <routine id="56" parent="24" name="sp_helpdiagramdefinition">
+      <object-id>853578079</object-id>
+      <created-timestamp>2016-10-03.12:45:09.767</created-timestamp>
+      <modified-timestamp>2016-10-03.12:45:09.767</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <type>PROC</type>
+    </routine>
+    <routine id="57" parent="24" name="sp_helpdiagrams">
+      <object-id>837578022</object-id>
+      <created-timestamp>2016-10-03.12:45:09.707</created-timestamp>
+      <modified-timestamp>2016-10-03.12:45:09.707</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <type>PROC</type>
+    </routine>
+    <routine id="58" parent="24" name="sp_renamediagram">
+      <object-id>885578193</object-id>
+      <created-timestamp>2016-10-03.12:45:09.783</created-timestamp>
+      <modified-timestamp>2016-10-03.12:45:09.783</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <type>PROC</type>
+    </routine>
+    <routine id="59" parent="24" name="sp_upgraddiagrams">
+      <object-id>773577794</object-id>
+      <created-timestamp>2016-10-03.12:45:09.703</created-timestamp>
+      <modified-timestamp>2016-10-03.12:45:09.703</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <type>PROC</type>
+    </routine>
+    <column id="60" parent="37" name="optname">
+      <mandatory>1</mandatory>
+      <data-type>sysname|0</data-type>
+    </column>
+    <column id="61" parent="37" name="value">
+      <mandatory>1</mandatory>
+      <data-type>bit|0</data-type>
+    </column>
+    <column id="62" parent="37" name="major_version">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="63" parent="37" name="minor_version">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="64" parent="37" name="revision">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="65" parent="37" name="install_failures">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="66" parent="38" name="xserver_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="67" parent="38" name="xdttm_ins">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="68" parent="38" name="xdttm_last_ins_upd">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="69" parent="38" name="xfallback_dbid">
+      <data-type>smallint|0</data-type>
+    </column>
+    <column id="70" parent="38" name="name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="71" parent="38" name="dbid">
+      <mandatory>1</mandatory>
+      <data-type>smallint|0</data-type>
+    </column>
+    <column id="72" parent="38" name="status">
+      <mandatory>1</mandatory>
+      <data-type>smallint|0</data-type>
+    </column>
+    <column id="73" parent="38" name="version">
+      <mandatory>1</mandatory>
+      <data-type>smallint|0</data-type>
+    </column>
+    <column id="74" parent="39" name="xserver_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="75" parent="39" name="xdttm_ins">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="76" parent="39" name="xdttm_last_ins_upd">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="77" parent="39" name="xfallback_low">
+      <data-type>int|0</data-type>
+    </column>
+    <column id="78" parent="39" name="xfallback_drive">
+      <data-type>char(2)|0</data-type>
+    </column>
+    <column id="79" parent="39" name="low">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="80" parent="39" name="high">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="81" parent="39" name="status">
+      <mandatory>1</mandatory>
+      <data-type>smallint|0</data-type>
+    </column>
+    <column id="82" parent="39" name="name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="83" parent="39" name="phyname">
+      <mandatory>1</mandatory>
+      <data-type>varchar(127)|0</data-type>
+    </column>
+    <column id="84" parent="40" name="xserver_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="85" parent="40" name="xdttm_ins">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="86" parent="40" name="xdttm_last_ins_upd">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="87" parent="40" name="xfallback_vstart">
+      <data-type>int|0</data-type>
+    </column>
+    <column id="88" parent="40" name="dbid">
+      <mandatory>1</mandatory>
+      <data-type>smallint|0</data-type>
+    </column>
+    <column id="89" parent="40" name="segmap">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="90" parent="40" name="lstart">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="91" parent="40" name="sizepg">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="92" parent="40" name="vstart">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="93" parent="41" name="lastrun">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="94" parent="41" name="cpu_busy">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="95" parent="41" name="io_busy">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="96" parent="41" name="idle">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="97" parent="41" name="pack_received">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="98" parent="41" name="pack_sent">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="99" parent="41" name="connections">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="100" parent="41" name="pack_errors">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="101" parent="41" name="total_read">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="102" parent="41" name="total_write">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="103" parent="41" name="total_errors">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="104" parent="42" name="name">
+      <data-type>nvarchar(35)|0</data-type>
+    </column>
+    <column id="105" parent="42" name="number">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="106" parent="42" name="type">
+      <mandatory>1</mandatory>
+      <data-type>nchar(3)|0</data-type>
+    </column>
+    <column id="107" parent="42" name="low">
+      <data-type>int|0</data-type>
+    </column>
+    <column id="108" parent="42" name="high">
+      <data-type>int|0</data-type>
+    </column>
+    <column id="109" parent="42" name="status">
+      <data-type>int|0</data-type>
+    </column>
+    <column id="110" parent="45" name="customer_id">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="111" parent="45" name="customer_name">
+      <mandatory>1</mandatory>
+      <data-type>nvarchar(30)|0</data-type>
+    </column>
+    <column id="112" parent="45" name="city">
+      <mandatory>1</mandatory>
+      <data-type>nvarchar(20)|0</data-type>
+    </column>
+    <column id="113" parent="45" name="eaddress">
+      <data-type>nvarchar(50)|0</data-type>
+    </column>
+    <column id="114" parent="45" name="phone_number">
+      <data-type>nvarchar(15)|0</data-type>
+    </column>
+    <index id="115" parent="45" name="PK_Customers_1">
+      <columns>customer_id</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <key id="116" parent="45" name="PK_Customers_1">
+      <object-id>1893581784</object-id>
+      <created-timestamp>2016-10-17.12:19:51.833</created-timestamp>
+      <modified-timestamp>2016-10-17.12:19:51.833</modified-timestamp>
+      <columns>customer_id</columns>
+      <underlying-index>PK_Customers_1</underlying-index>
+      <primary>1</primary>
+    </key>
+    <check id="117" parent="45" name="ck_phone">
+      <object-id>677577452</object-id>
+      <created-timestamp>2016-10-03.12:17:53.623</created-timestamp>
+      <modified-timestamp>2016-10-03.12:17:53.623</modified-timestamp>
+      <columns>phone_number</columns>
+      <predicate>[phone_number] like &apos;8([1-9][0-9][0-9])[0-9][0-9][0-9][0-9][0-9][0-9][0-9]&apos; OR [phone_number] like &apos;+7([1-9][0-9][0-9])[0-9][0-9][0-9][0-9][0-9][0-9][0-9]&apos;</predicate>
+    </check>
+    <column id="118" parent="46" name="good_id">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+      <sequence-identity>1(7)</sequence-identity>
+    </column>
+    <column id="119" parent="46" name="unit">
+      <data-type>nvarchar(5)|0</data-type>
+    </column>
+    <column id="120" parent="46" name="price">
+      <data-type>float|0</data-type>
+    </column>
+    <column id="121" parent="46" name="quantity">
+      <data-type>int|0</data-type>
+    </column>
+    <column id="122" parent="46" name="name">
+      <mandatory>1</mandatory>
+      <data-type>nvarchar(20)|0</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <index id="123" parent="46" name="PK__goods__1405AEAA9F5E6306">
+      <name-surrogate>1</name-surrogate>
+      <columns>good_id</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <key id="124" parent="46" name="PK__goods__1405AEAA9F5E6306">
+      <name-surrogate>1</name-surrogate>
+      <object-id>373576369</object-id>
+      <created-timestamp>2016-09-26.12:57:48.837</created-timestamp>
+      <modified-timestamp>2016-09-26.12:57:48.837</modified-timestamp>
+      <columns>good_id</columns>
+      <underlying-index>PK__goods__1405AEAA9F5E6306</underlying-index>
+      <primary>1</primary>
+    </key>
+    <check id="125" parent="46" name="CK__goods__price__173876EA">
+      <name-surrogate>1</name-surrogate>
+      <object-id>389576426</object-id>
+      <created-timestamp>2016-09-26.12:57:48.837</created-timestamp>
+      <modified-timestamp>2016-09-26.12:57:48.837</modified-timestamp>
+      <columns>price</columns>
+      <predicate>[price]&gt;0</predicate>
+    </check>
+    <check id="126" parent="46" name="CK__goods__quantity__182C9B23">
+      <name-surrogate>1</name-surrogate>
+      <object-id>405576483</object-id>
+      <created-timestamp>2016-09-26.12:57:48.847</created-timestamp>
+      <modified-timestamp>2016-09-26.12:57:48.847</modified-timestamp>
+      <columns>quantity</columns>
+      <predicate>[quantity]&gt;=0</predicate>
+    </check>
+    <column id="127" parent="47" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+      <sequence-identity>1(1014)</sequence-identity>
+    </column>
+    <column id="128" parent="47" name="name">
+      <mandatory>1</mandatory>
+      <data-type>nvarchar(30)|0</data-type>
+    </column>
+    <column id="129" parent="47" name="URL">
+      <mandatory>1</mandatory>
+      <data-type>nvarchar(50)|0</data-type>
+    </column>
+    <column id="130" parent="47" name="playcount">
+      <data-type>nvarchar(15)|0</data-type>
+    </column>
+    <column id="131" parent="47" name="image_source">
+      <mandatory>1</mandatory>
+      <data-type>nvarchar(90)|0</data-type>
+    </column>
+    <column id="132" parent="47" name="description">
+      <data-type>text|0</data-type>
+    </column>
+    <index id="133" parent="47" name="PK__performe__3213E83FD3D8EECB">
+      <name-surrogate>1</name-surrogate>
+      <columns>id</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <key id="134" parent="47" name="PK__performe__3213E83FD3D8EECB">
+      <name-surrogate>1</name-surrogate>
+      <object-id>1541580530</object-id>
+      <created-timestamp>2016-10-14.00:48:21.143</created-timestamp>
+      <modified-timestamp>2016-10-14.00:48:21.143</modified-timestamp>
+      <columns>id</columns>
+      <underlying-index>PK__performe__3213E83FD3D8EECB</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="135" parent="48" name="sales_id">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+      <sequence-identity>1(1002)</sequence-identity>
+    </column>
+    <column id="136" parent="48" name="sales_date">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="137" parent="48" name="quantity">
+      <data-type>int|0</data-type>
+    </column>
+    <column id="138" parent="48" name="price">
+      <data-type>money|0</data-type>
+    </column>
+    <column id="139" parent="48" name="total_price">
+      <computed>1</computed>
+      <data-type>money|0</data-type>
+      <default-expression>[quantity]*[price]</default-expression>
+    </column>
+    <column id="140" parent="48" name="good_id">
+      <data-type>int|0</data-type>
+    </column>
+    <column id="141" parent="48" name="customer_city">
+      <data-type>nvarchar(20)|0</data-type>
+    </column>
+    <column id="142" parent="48" name="customer_id">
+      <data-type>int|0</data-type>
+    </column>
+    <index id="143" parent="48" name="PK__Sales__995B858514740D7A">
+      <name-surrogate>1</name-surrogate>
+      <columns>sales_id</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <key id="144" parent="48" name="PK__Sales__995B858514740D7A">
+      <name-surrogate>1</name-surrogate>
+      <object-id>242099903</object-id>
+      <created-timestamp>2016-10-24.08:48:32.830</created-timestamp>
+      <modified-timestamp>2016-10-24.08:48:32.830</modified-timestamp>
+      <columns>sales_id</columns>
+      <underlying-index>PK__Sales__995B858514740D7A</underlying-index>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="145" parent="48" name="FK_sales_goods_good_id">
+      <object-id>258099960</object-id>
+      <created-timestamp>2016-10-24.08:48:32.843</created-timestamp>
+      <modified-timestamp>2016-10-24.08:48:32.843</modified-timestamp>
+      <columns>good_id</columns>
+      <ref-key>~.goods.PK__goods__1405AEAA9F5E6306</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="146" parent="49" name="name">
+      <mandatory>1</mandatory>
+      <data-type>sysname|0</data-type>
+    </column>
+    <column id="147" parent="49" name="principal_id">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="148" parent="49" name="diagram_id">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+      <sequence-identity>1(2)</sequence-identity>
+    </column>
+    <column id="149" parent="49" name="version">
+      <data-type>int|0</data-type>
+    </column>
+    <column id="150" parent="49" name="definition">
+      <data-type>varbinary|0</data-type>
+    </column>
+    <index id="151" parent="49" name="PK__sysdiagr__C2B05B612C01D260">
+      <name-surrogate>1</name-surrogate>
+      <columns>diagram_id</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <index id="152" parent="49" name="UK_principal_name">
+      <columns>principal_id
+name</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <position>2</position>
+    </index>
+    <key id="153" parent="49" name="PK__sysdiagr__C2B05B612C01D260">
+      <name-surrogate>1</name-surrogate>
+      <object-id>805577908</object-id>
+      <created-timestamp>2016-10-03.12:45:09.707</created-timestamp>
+      <modified-timestamp>2016-10-03.12:45:09.707</modified-timestamp>
+      <columns>diagram_id</columns>
+      <underlying-index>PK__sysdiagr__C2B05B612C01D260</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="154" parent="49" name="UK_principal_name">
+      <object-id>821577965</object-id>
+      <created-timestamp>2016-10-03.12:45:09.707</created-timestamp>
+      <modified-timestamp>2016-10-03.12:45:09.707</modified-timestamp>
+      <columns>principal_id
+name</columns>
+      <underlying-index>UK_principal_name</underlying-index>
+    </key>
+    <column id="155" parent="50" name="user_id">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+    </column>
+    <column id="156" parent="50" name="team_name">
+      <mandatory>1</mandatory>
+      <data-type>nvarchar(30)|0</data-type>
+    </column>
+    <column id="157" parent="50" name="city">
+      <mandatory>1</mandatory>
+      <data-type>nvarchar(20)|0</data-type>
+    </column>
+    <column id="158" parent="50" name="sport">
+      <mandatory>1</mandatory>
+      <data-type>nvarchar(15)|0</data-type>
+    </column>
+    <column id="159" parent="50" name="music">
+      <data-type>nvarchar(20)|0</data-type>
+    </column>
+    <column id="160" parent="50" name="category">
+      <data-type>nvarchar(15)|0</data-type>
+    </column>
+    <foreign-key id="161" parent="50" name="FK_Themes_Users">
+      <object-id>450100644</object-id>
+      <created-timestamp>2016-10-25.02:06:50.060</created-timestamp>
+      <modified-timestamp>2016-10-25.02:06:50.060</modified-timestamp>
+      <columns>user_id</columns>
+      <ref-key>~.Users.PK__Users__B9BE370F69030B9C</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="162" parent="51" name="user_id">
+      <mandatory>1</mandatory>
+      <data-type>int|0</data-type>
+      <sequence-identity>1(1006)</sequence-identity>
+    </column>
+    <column id="163" parent="51" name="name">
+      <mandatory>1</mandatory>
+      <data-type>nvarchar(20)|0</data-type>
+      <default-expression>&apos;user&apos;</default-expression>
+    </column>
+    <column id="164" parent="51" name="email">
+      <mandatory>1</mandatory>
+      <data-type>nvarchar(20)|0</data-type>
+    </column>
+    <column id="165" parent="51" name="password">
+      <mandatory>1</mandatory>
+      <data-type>nvarchar(20)|0</data-type>
+    </column>
+    <column id="166" parent="51" name="gender">
+      <mandatory>1</mandatory>
+      <data-type>nvarchar(6)|0</data-type>
+      <default-expression>&apos;Male&apos;</default-expression>
+    </column>
+    <column id="167" parent="51" name="city">
+      <mandatory>1</mandatory>
+      <data-type>nvarchar(20)|0</data-type>
+    </column>
+    <column id="168" parent="51" name="about">
+      <data-type>text|0</data-type>
+    </column>
+    <column id="169" parent="51" name="sub">
+      <mandatory>1</mandatory>
+      <data-type>nvarchar(5)|0</data-type>
+      <default-expression>&apos;true&apos;</default-expression>
+    </column>
+    <column id="170" parent="51" name="is_admin">
+      <data-type>nvarchar(5)|0</data-type>
+      <default-expression>&apos;false&apos;</default-expression>
+    </column>
+    <index id="171" parent="51" name="PK__Users__B9BE370F69030B9C">
+      <name-surrogate>1</name-surrogate>
+      <columns>user_id</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <key id="172" parent="51" name="PK__Users__B9BE370F69030B9C">
+      <name-surrogate>1</name-surrogate>
+      <object-id>82099333</object-id>
+      <created-timestamp>2016-10-23.15:01:23.867</created-timestamp>
+      <modified-timestamp>2016-10-23.15:01:23.867</modified-timestamp>
+      <columns>user_id</columns>
+      <underlying-index>PK__Users__B9BE370F69030B9C</underlying-index>
+      <primary>1</primary>
+    </key>
+    <argument id="173" parent="52">
+      <direction>RETURN</direction>
+      <data-type>int|0</data-type>
+    </argument>
+    <argument id="174" parent="53" name="@diagramname">
+      <direction>IN</direction>
+      <data-type>sysname|0</data-type>
+    </argument>
+    <argument id="175" parent="53" name="@owner_id">
+      <direction>IN</direction>
+      <data-type>int|0</data-type>
+    </argument>
+    <argument id="176" parent="53" name="@version">
+      <direction>IN</direction>
+      <data-type>int|0</data-type>
+    </argument>
+    <argument id="177" parent="53" name="@definition">
+      <direction>IN</direction>
+      <data-type>varbinary|0</data-type>
+    </argument>
+    <argument id="178" parent="54" name="@diagramname">
+      <direction>IN</direction>
+      <data-type>sysname|0</data-type>
+    </argument>
+    <argument id="179" parent="54" name="@owner_id">
+      <direction>IN</direction>
+      <data-type>int|0</data-type>
+    </argument>
+    <argument id="180" parent="54" name="@version">
+      <direction>IN</direction>
+      <data-type>int|0</data-type>
+    </argument>
+    <argument id="181" parent="54" name="@definition">
+      <direction>IN</direction>
+      <data-type>varbinary|0</data-type>
+    </argument>
+    <argument id="182" parent="55" name="@diagramname">
+      <direction>IN</direction>
+      <data-type>sysname|0</data-type>
+    </argument>
+    <argument id="183" parent="55" name="@owner_id">
+      <direction>IN</direction>
+      <data-type>int|0</data-type>
+    </argument>
+    <argument id="184" parent="56" name="@diagramname">
+      <direction>IN</direction>
+      <data-type>sysname|0</data-type>
+    </argument>
+    <argument id="185" parent="56" name="@owner_id">
+      <direction>IN</direction>
+      <data-type>int|0</data-type>
+    </argument>
+    <argument id="186" parent="57" name="@diagramname">
+      <direction>IN</direction>
+      <data-type>sysname|0</data-type>
+    </argument>
+    <argument id="187" parent="57" name="@owner_id">
+      <direction>IN</direction>
+      <data-type>int|0</data-type>
+    </argument>
+    <argument id="188" parent="58" name="@diagramname">
+      <direction>IN</direction>
+      <data-type>sysname|0</data-type>
+    </argument>
+    <argument id="189" parent="58" name="@owner_id">
+      <direction>IN</direction>
+      <data-type>int|0</data-type>
+    </argument>
+    <argument id="190" parent="58" name="@new_diagramname">
+      <direction>IN</direction>
+      <data-type>sysname|0</data-type>
+    </argument>
+  </database-model>
+</dataSource>

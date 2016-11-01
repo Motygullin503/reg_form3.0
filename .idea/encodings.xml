@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/entities/NewsItem.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/entities/Themes.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/entities/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/entities/Weather.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/network_headlines/com/HTMLHeadlinesParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/network_last/fm/JSONLastFmParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/network_sports/ru/HTMLSportsParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/network_sports/ru/JSONSportsSearchEngine.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/network_weather/JSONWeatherParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/repositories/SQLUserRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/servlets/AutServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/servlets/PersonalPageServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/servlets/RegServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/servlets/aa" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/utils/DatabaseUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/utils/GzipPageParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/utils/PageParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/itis/utils/interfaces/Parser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/META-INF" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/font" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/form.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/img" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/sass" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

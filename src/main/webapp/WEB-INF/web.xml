@@ -1,0 +1,36 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+  http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1">
+
+  <servlet>
+    <servlet-name>RegServlet</servlet-name>
+    <servlet-class>ru.itis.servlets.RegServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegServlet</servlet-name>
+    <url-pattern>/registration</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PersonalPageServlet</servlet-name>
+    <servlet-class>ru.itis.servlets.PersonalPageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PersonalPageServlet</servlet-name>
+    <url-pattern>/personal</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AutServlet</servlet-name>
+    <servlet-class>ru.itis.servlets.AutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AutServlet</servlet-name>
+    <url-pattern>/authentification</url-pattern>
+  </servlet-mapping>
+
+</web-app>
